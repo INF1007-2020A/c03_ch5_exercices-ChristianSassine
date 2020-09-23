@@ -26,9 +26,8 @@ def factorial(number: int) -> int:
 def use_continue() -> None:
     for chiffre in range(0,10):
         if chiffre == 5
-        pass
-        else:
-            print(chiffre)
+        continue
+        print(chiffre)
 
 
 def main() -> None:
